@@ -1,0 +1,35 @@
+{
+
+	"manifest_version": 1,
+	"name": "Bypass",
+	"version": "1.0",
+
+	"description": "Bypasses any paywall or your money back",
+	
+	"icons":
+	{
+		"48": "icons/border-48.png"
+	},
+	
+	"background":
+	{
+		"scripts": [
+		 "node_modules/webextension-polyfill/dist/browser-polyfill.js",
+		 "background.js"
+		]
+	},
+	
+	"permissions":
+	[
+		"tabs"
+	],
+	
+	"browser_action":
+	{
+		"default_icon":
+		{
+		  "16": "icons/page-16.png",
+		  "32": "icons/page-32.png"
+		}
+	}
+}
