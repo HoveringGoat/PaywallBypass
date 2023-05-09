@@ -31,11 +31,12 @@
 		}
 	},
 
-	"browser_specific_settings": {
-	  "gecko":
-	  {
+	"browser_specific_settings":
+	{
+		"gecko":
+		{
 		"id": "addon@ubypass.org"
-	  }
+		}
 	},
 
   "content_scripts": [
