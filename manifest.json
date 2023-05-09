@@ -1,16 +1,14 @@
 {
-
-	"manifest_version": 2,
-	"name": "Paywall Bypass",
+	"manifest_version": 3,
+	"name": "uBypass",
 	"version": "1",
-
 	"description": "Bypasses any paywall or your money back",
-	
+
 	"icons":
 	{
 		"48": "icons/border-48.png"
 	},
-	
+
 	"background":
 	{
 		"scripts": [
@@ -18,18 +16,31 @@
 		 "background.js"
 		]
 	},
-	
+
 	"permissions":
 	[
 		"tabs"
 	],
-	
-	"browser_action":
+
+	"action":
 	{
 		"default_icon":
 		{
 		  "16": "icons/page-16.png",
 		  "32": "icons/page-32.png"
 		}
-	}
+	},
+
+	"browser_specific_settings": {
+	  "gecko": {
+		"id": "addon@ubypass.org",
+	  }
+	},
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.webcache.googleusercontent.com/*"],
+      "js": ["content.js"]
+    }
+  ]
 }
