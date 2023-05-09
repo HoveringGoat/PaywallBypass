@@ -32,8 +32,9 @@
 	},
 
 	"browser_specific_settings": {
-	  "gecko": {
-		"id": "addon@ubypass.org",
+	  "gecko":
+	  {
+		"id": "addon@ubypass.org"
 	  }
 	},
 
