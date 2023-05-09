@@ -6,4 +6,4 @@ async function openPage() {
   });
 }
 
-browser.browserAction.onClicked.addListener(openPage);
+browser.action.onClicked.addListener(openPage);
