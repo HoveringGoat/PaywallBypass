@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
 	"name": "uBypass",
-	"version": "1",
+	"version": "1.1",
 	"description": "Bypasses any paywall or your money back",
 
 	"icons":
@@ -35,7 +35,7 @@
 	{
 		"gecko":
 		{
-		"id": "addon@ubypass.org"
+		"id": "{fc5ae8dd-5ad6-45d6-ac6f-e8013dec9d37}"
 		}
 	},
 
