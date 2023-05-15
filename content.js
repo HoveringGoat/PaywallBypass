@@ -14,7 +14,7 @@ if ((document.documentElement.textContent || document.documentElement.innerText)
 }
 else
 {
-	let a = document.querySelectorAll("[id*='google-cache-hdr'], [class*='adComponent']")
+	let a = document.querySelectorAll("[id*='google-cache-hdr']")
 
 	for (let i of a)
 	{
