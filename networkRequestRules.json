@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "condition": {
+      "urlFilter": "|https://c2.piano.io/xbuilder/experience/execute"
+    },
+    "action": {
+      "type": "block"
+    }
+  }
+]

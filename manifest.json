@@ -21,7 +21,8 @@
 
 	"permissions":
 	[
-		"tabs"
+		"tabs",
+		"declarativeNetRequest"
 	],
 
 	"action":
@@ -46,6 +47,13 @@
       "matches": 	["*://*.webcache.googleusercontent.com/*"],
 	  "css":        ["style.css"],
       "js": 		["content.js"]
-    }
-  ]
+    }],
+	
+	"declarative_net_request": {
+	"rule_resources": [{
+	  "id": "ruleset",
+	  "enabled": true,
+	  "path": "networkRequestRules.json"
+	}]
+	}
 }
