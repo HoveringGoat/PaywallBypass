@@ -1,0 +1,3 @@
+[submodule "bypass-paywalls-chrome"]
+	path = bypass-paywalls-chrome
+	url = https://github.com/HoveringGoat/bypass-paywalls-chrome
