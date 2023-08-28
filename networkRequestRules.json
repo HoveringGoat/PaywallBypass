@@ -2,7 +2,25 @@
   {
     "id": 1,
     "condition": {
-      "urlFilter": "|https://c2.piano.io/xbuilder/experience/execute"
+      "urlFilter": "piano.io"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "id": 2,
+    "condition": {
+      "urlFilter": "gatehouse.cm"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "id": 3,
+    "condition": {
+      "urlFilter": "samizdat-graphql"
     },
     "action": {
       "type": "block"
