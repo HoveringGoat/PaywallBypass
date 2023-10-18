@@ -10,5 +10,5 @@ async function openPage() {
 
 browser.action.onClicked.addListener(openPage);
 browser.commands.onCommand.addListener((command) => {
-	if (command === 'ubypass_url') openPage();
+	if (command === "ubypass_url") openPage();
 });
