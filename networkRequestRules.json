@@ -25,5 +25,14 @@
     "action": {
       "type": "block"
     }
+  },
+  {
+    "id": 4,
+    "condition": {
+      "urlFilter": "jam.hearstapps"
+    },
+    "action": {
+      "type": "block"
+    }
   }
 ]
