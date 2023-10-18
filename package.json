@@ -1,5 +1,15 @@
 {
-  "dependencies": {
-    "webextension-polyfill": "^0.10.0"
-  }
+	"name": "ubypass",
+	"description": "Bypasses paywalls",
+	"version": "1.5",
+	"scripts": {
+		"lint": "eslint .",
+		"format": "eslint . --fix"
+	},
+	"dependencies": {
+		"webextension-polyfill": "^0.10.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.51.0"
+	}
 }
