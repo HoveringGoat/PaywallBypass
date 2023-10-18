@@ -25,5 +25,23 @@
     "action": {
       "type": "block"
     }
+  },
+  {
+    "id": 4,
+    "condition": {
+      "urlFilter": "jam.hearstapps"
+    },
+    "action": {
+      "type": "block"
+    }
+  },
+  {
+    "id": 5,
+    "condition": {
+      "urlFilter": "meter-svc.nytimes.com"
+    },
+    "action": {
+      "type": "block"
+    }
   }
 ]
